@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+body {
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.NavLink {
+    color: whitesmoke;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: Abel;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    display:inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.TimeOfDayGreeting {
+    font-family: Abel;
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.todo-input-box {
+    background-color: #e3dac9;
+    display: block;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    font-family: consolas;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.theList li {
+    background-color: #e3dac9;
+    display: block;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    font-family: Shadows Into Light;
+    list-style: none; 
+}
+
+.todo-list {
+    background-color: #e3dac9;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 30px;
+}
+
+/* this is a cool alternqative box shadow
+    box-shadow:
+    0 1px 1px rgba(0,0,0,0.15),
+    0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    0 20px 0 -10px #eee,
+    0 20px 1px -9px  rgba(0,0,0,0.15);
+*/
+
+.todo-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+input[type=checkbox]{
+    margin-right: 10px;
+}
+
+.ContactCard {
+    background-color: #e3dac9;
+    display: block;
+    width: 250px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* this styles the incrementing button which demonstrates changing state */
+
+.DescriptionText {
+    background-color: #333;
+    color: #e3dac9;
+    display: block;
+    width: 350px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-family: Consolas;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-counter {
+    background-color: #e3dac9;
+    display: block;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    font-family: consolas;
+}
+
+.button {
+    background-color: #e3dac9;
+    display: block;
+    width: 100px;
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.unmounted-message {
+    background-color: #e3dac9;
+    display: block;
+    width: 100px;
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    font-family: consolas;
+    color: red;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+}
+
+Footer {
+    background-color: #333;
+    color: whitesmoke;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.react-logo {
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.heading {
+    background-color: #e3dac9;
+    display: block;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Abel;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 40px;
+}
+
+.textbox {
+    background-color: #e3dac9;
+    display: block;
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+/* fade in animation using keyframes */
+    animation-name: iframe-fadein;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+  } @keyframes iframe-fadein {
+    0% {
+      opacity: 0;
+    }
+  }
+
+  /* animation to be applied to any element you want to fade in, e.g. something that takes time to load*/
+  .fade-in {
+    animation-name: iframe-fadein;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+  } @keyframes iframe-fadein {
+    0% {
+      opacity: 0;
+    }
+
+
+  }
+
+.error {
+    background-color: #e3dac9;
+    color: red;
+    display: block;
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-family: Consolas;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* FOR MOBILE SCREEN SIZES JUST USE A MEDIA QUERY AND RESIZE THE ELEMENTS, LOOKS FINE ON REDUCED BROWSER SCREEN.*/
+/* --no need for media query - check chrome dev tools, looks fine */
+
+/* ADD SOME HOVER ANIIMATION OVER BUTTONS, E.G. COLOURED BORDERS AND COLOUR CHANGES */
+
+/* ADD ANOTHER COUPLE OF VIDEOS TO BEST REACT TUTORIALS */
+
+/* ENTER TRANSITION */
+/* Declare transition start properties*/
+.slide-enter {
+    transform: translateX(-100vw);
+    opacity: 0;
+    position: absolute;
+    
+}
+
+/* Declare transition properties */
+.slide-enter.slide-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 300ms linear 300ms;
+}
+
+/* EXIT TRANSITION */
+.slide-exit {
+    transform: translateX(0);
+    opacity: 1;
+    
+}
+
+.slide-exit.slide-exit-active {
+    transform: translateX(100vw);
+    opacity: 0;
+    transition: all 300ms linear
+}
